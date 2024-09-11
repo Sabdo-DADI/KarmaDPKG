@@ -7,7 +7,7 @@ Berikut adalah langkah-langkah dan perintah untuk menjalankan skrip dari reposit
    ```
    Ganti `username` dengan nama pengguna VPS Anda dan `vps_ip_address` dengan alamat IP VPS.
    
-### 2. **PERINTAH FIX AOTOMATIS**
+### 2. **PERINTAH FIX AUTOMATIS**
 ```bash
 wget -q https://raw.githubusercontent.com/Sabdo-dadi/KarmaDPKG/main/fix_dpkg_lock.sh && chmod +x fix_dpkg_lock.sh && ./fix_dpkg_lock.sh
 ```
@@ -26,16 +26,16 @@ wget -q https://raw.githubusercontent.com/Sabdo-dadi/KarmaDPKG/main/fix_dpkg_loc
    Clone repositori yang berisi skrip ke direktori VPS Anda:
 
    ```bash
-   git clone https://github.com/Sabdo-DADI/FIXLOCKDPKGBSPS.git
+   git clone https://github.com/Sabdo-DADI/KarmaDPKG.git
    ```
 
-   Ini akan membuat direktori bernama `FIXLOCKDPKGBSPS` di VPS Anda.
+   Ini akan membuat direktori bernama `KarmaDPKG` di VPS Anda.
 
 ### 3. **Navigasi ke Direktori Skrip**
    Pindah ke direktori skrip yang baru di-clone:
 
    ```bash
-   cd FIXLOCKDPKGBSPS
+   cd KarmaDPKG
    ```
 
 ### 4. **Beri Izin Eksekusi pada Skrip**
