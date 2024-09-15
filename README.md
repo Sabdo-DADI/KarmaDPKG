@@ -1,4 +1,4 @@
-### **Berikut adalah langkah-langkah dan perintah untuk menjalankan skrip dari repositori FIX LOCK DPKG:**
+### **Berikut adalah langkah-langkah dan perintah untuk menjalankan scrip dari repositori FIX LOCK DPKG:**
 
 ### 1. **Login ke VPS**
    Gunakan SSH untuk login ke VPS Anda:
