@@ -2,7 +2,7 @@
 
 # Skrip untuk mengatasi masalah lock dpkg
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗$NC"
-echo -e "${OK} FIX LOCK DPKG BY SABDO PALON STORE ( ${green}$IP${NC} )"
+echo -e "${OK} FIX LOCK DPKG BY SABDO PALON STORE{NC} )"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"
 echo "Memeriksa apakah ada proses yang menggunakan dpkg lock..."
 
@@ -35,6 +35,6 @@ sudo dpkg --configure -a
 echo "Melakukan update dan upgrade paket..."
 sudo apt update && sudo apt upgrade -y
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗$NC"
-echo -e "${OK} SUCCESS! DPKG BERHASIL DI PERBAIKI BY SPS ( ${green}$IP${NC} )"
+echo -e "${OK} SUCCESS! DPKG BERHASIL DI PERBAIKI BY SPS {NC} )"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"
 echo "Selesai! Masalah lock dpkg telah diatasi."
