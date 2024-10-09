@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Skrip untuk mengatasi masalah lock dpkg
-echo -e "\e[94;1m╔═════════════════════════════════════════════════╗$NC"
-echo -e "  FIX LOCK DPKG BY SABDO PALON STORE"
-echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"
+echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\033[0m"
+echo -e "\033[1;37m  FIX LOCK DPKG BY SABDO PALON STORE \033[0m"
+echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\033[0m"
 echo "Memeriksa apakah ada proses yang menggunakan dpkg lock..."
 
 # Periksa apakah ada proses yang menggunakan lock
@@ -34,7 +34,7 @@ sudo dpkg --configure -a
 # Update dan upgrade paket
 echo "Melakukan update dan upgrade paket..."
 sudo apt update && sudo apt upgrade -y
-echo -e "\e[94;1m╔═════════════════════════════════════════════════╗$NC"
-echo -e "  SUCCESS! DPKG BERHASIL DI PERBAIKI BY SPS"
-echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"
+echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\033[0m"
+echo -e "\033[1;37m  SUCCESS! DPKG BERHASIL DI PERBAIKI BY SPS \033[0m"
+echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\033[0m"
 echo "Selesai! Masalah lock dpkg telah diatasi."
