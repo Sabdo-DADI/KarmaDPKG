@@ -1,5 +1,13 @@
 #!/bin/bash
-
+# //====================================================
+# //  Sabdo Palon Store - Since 2023
+# //====================================================
+# //  System Request : Debian 9+/Ubuntu 18.04+/20+
+# //  Author         : Sabdopalonstore
+# //  Wa contact     : 085161256106
+# //  email          : Sabdopalonstore@gmail.com
+# //  telegram       : t.me/Sabdopalonstore
+# //====================================================
 # Skrip untuk mengatasi masalah lock dpkg
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\033[0m"
 echo -e "\033[1;37m  FIX LOCK DPKG BY SABDO PALON STORE \033[0m"
